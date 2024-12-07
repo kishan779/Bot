@@ -1,0 +1,74 @@
+
+
+
+
+
+
+1. Install Git: Make sure you have Git installed on your computer. You can download it from the official Git website.
+
+2. Open Visual Studio Code: Launch Visual Studio Code.
+
+3. Open Integrated Terminal: You can open the integrated terminal in VS Code by going to the menu and selecting View > Terminal, or by using the shortcut (Ctrl + `).
+
+4. Initialize a Git Repository: Navigate to your project folder in the terminal and run the following command to initialize a Git repository:
+   ```
+   git init
+   ```
+
+5. Add Remote Repository: If you have a remote repository (like on GitHub), you need to add it as a remote. Use the following command, replacing the URL with your repository's URL:
+   ```
+   git remote add origin <your-repository-url>
+   ```
+
+6. Stage Changes: To stage your changes for commit, use:
+   ```
+   git add .
+   ```
+   This command stages all changes in the current directory.
+
+7. Commit Changes: After staging, commit your changes using:
+   ```
+   git commit -m "Your commit message"
+   ```
+
+8. Push Changes: To push your changes to the remote repository, use:
+   ```
+   git push origin master
+   ```
+   If you’re using a different branch (like main), replace `master` with your branch name.
+
+9. Pull Changes: To pull the latest changes from the remote repository, use:
+   ```
+   git pull origin master
+   ```
+   Again, replace `master` with your branch name if necessary.
+
+10. Authentication: If prompted, enter your GitHub username and password or personal access token.
+
+
+
+
+
+==============================================================
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+in git bash
+
+
+===============================
+npm i jsonfile
+  npm install moment
+  npm install simple-git
+  npm install random
+
+===============================
+Install git 
+then 
+Npm init
+
+name : github bot
+then 
+git repository: https://github.com/kishan779/Github_Text.git
+Then author name : Kishan 
+and lastly : yes
